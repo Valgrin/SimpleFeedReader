@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+static NSString *feedURL = @"http://www.fandango.com/rss/newmovies.rss";
+static NSString *kMovieCellIdentifier = @"kMovieCellIdentifier";
 
+@interface ViewController : UITableViewController
+
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end
 

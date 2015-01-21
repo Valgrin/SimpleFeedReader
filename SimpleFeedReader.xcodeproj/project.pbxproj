@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368483391A6D358B0099C3C8 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 368483381A6D358B0099C3C8 /* MovieTableViewCell.m */; };
 		36CBA1FF1A665C2000399091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CBA1FE1A665C2000399091 /* main.m */; };
 		36CBA2021A665C2000399091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CBA2011A665C2000399091 /* AppDelegate.m */; };
 		36CBA2051A665C2000399091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CBA2041A665C2000399091 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		368483371A6D358B0099C3C8 /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
+		368483381A6D358B0099C3C8 /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
 		36CBA1F91A665C2000399091 /* SimpleFeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CBA1FD1A665C2000399091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36CBA1FE1A665C2000399091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				36CBA2091A665C2000399091 /* Images.xcassets */,
 				36CBA20B1A665C2000399091 /* LaunchScreen.xib */,
 				36CBA1FC1A665C2000399091 /* Supporting Files */,
+				368483371A6D358B0099C3C8 /* MovieTableViewCell.h */,
+				368483381A6D358B0099C3C8 /* MovieTableViewCell.m */,
 			);
 			path = SimpleFeedReader;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36CBA2051A665C2000399091 /* ViewController.m in Sources */,
+				368483391A6D358B0099C3C8 /* MovieTableViewCell.m in Sources */,
 				36CBA2021A665C2000399091 /* AppDelegate.m in Sources */,
 				36CBA1FF1A665C2000399091 /* main.m in Sources */,
 			);

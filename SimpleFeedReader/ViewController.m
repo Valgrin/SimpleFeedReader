@@ -32,6 +32,8 @@
 {
     [super loadView];
     self.movieList = [[NSMutableArray alloc] init];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.tableView.tableFooterView.frame = CGRectZero;
 }
 
 - (void)viewDidLoad

@@ -142,6 +142,22 @@
     return cell;
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *sectionHeaderView = [[UIView alloc] init];
+    sectionHeaderView.backgroundColor = [UIColor lightGrayColor];
+    UILabel *label = [[UILabel alloc] initWithFrame: CGRectMake(10, 10, 0, 0)];
+    label.text = @"Available new movies";
+    [label sizeToFit];
+    [sectionHeaderView addSubview: label];
+    return sectionHeaderView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForHeaderInSection:(NSInteger)section
+{
+    return 40;
+}
+
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
